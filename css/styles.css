@@ -95,6 +95,7 @@ ul {
 }
 
 .hero .button {
+  font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -166,6 +167,45 @@ ul {
   color: var(--text-color);
 }
 
+/* Основная часть страници "Портфолио" */
+
+/* Блок Портфолио */
+
+.portfolio .button {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  color: var(--main-color);
+  background-color: var(--additional-background-color);
+
+  cursor: pointer;
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: var(--additional-color);
+  background-color: var(--hoover-color);
+}
+
+.portfolio .tittle {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.portfolio .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color);
+}
+
 /* Футер */
 
 .footer {
@@ -203,4 +243,9 @@ ul {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--hoover-color);
 }
